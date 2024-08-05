@@ -114,7 +114,7 @@ const Sidebar = ({ sidebarOpen, toggleSidebar }: Props) => {
             }`}
           >
             <BsBarChartLineFill />
-            <span className="ml-4">Metricas</span>
+            <span className="ml-4">Métricas</span>
           </button>
         </nav>
       </div>
