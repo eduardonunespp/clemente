@@ -30,7 +30,7 @@ const MetricPage = () => {
           </button>
         </header>
         <main className="flex-1 p-4 w-full h-dvh bg-bgSecundary">
-          <Header Title="Início" />
+          <Header Title="Métricas" />
 
           <section className="mt-10  p-6 h-auto rounded-t-xl bg-bgTerciary max-md:bg-bgSecundary max-md:p-1">
             <h2 className="text-colorPrimary text-xl mb-4 max-md:text-sm font-bold">

@@ -37,6 +37,10 @@ const Sidebar = ({ sidebarOpen, toggleSidebar }: Props) => {
     router.push(route);
   };
 
+  const handleNavigateToHome = () => {
+    router.push('/')
+  }
+
   return (
     <div className="flex h-screen">
       <div
@@ -45,7 +49,9 @@ const Sidebar = ({ sidebarOpen, toggleSidebar }: Props) => {
         } md:translate-x-0`}
       >
         <div className="flex items-center justify-center p-2 bg-bgTerciary">
+          <div className="cursor-pointer" onClick={() => handleNavigateToHome()}>
           <Icon width="190" height="80" />
+          </div>
           <button onClick={toggleSidebar} className="md:hidden px-2">
             <IoClose size={24} className="text-colorPrimary" />
           </button>
