@@ -26,9 +26,9 @@ const Accordion: React.FC<Props> = ({ type }) => {
             <h2 className="max-md:text-sm max-md:font-bold">00 00000-000</h2>
           </div>
           <div className="w-1/5 max-md:w-1/2 flex items-center justify-center max-md:justify-end">
-            <BsThreeDotsVertical className="max-md:hidden" />
+            <BsThreeDotsVertical className="cursor-pointer max-md:hidden" />
 
-            <IoIosArrowDown className="hidden max-md:block" />
+            <IoIosArrowDown className="hidden cursor-pointer max-md:block" />
           </div>
         </div>
       ) : (
@@ -46,7 +46,7 @@ const Accordion: React.FC<Props> = ({ type }) => {
               <span className="ml-4 text-sm">Editar</span>
             </button>
 
-            <IoIosArrowDown />
+            <IoIosArrowDown className="cursor-pointer" />
           </div>
         </div>
       )}
